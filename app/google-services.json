@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "22892575655",
+    "firebase_url": "https://instanitro-e0d16.firebaseio.com",
+    "project_id": "instanitro-e0d16",
+    "storage_bucket": "instanitro-e0d16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22892575655:android:505d458f06c9f548",
+        "android_client_info": {
+          "package_name": "com.instanitro.instanitro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "22892575655-fjlg64notpsik4id0untp507kdc2fi13.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.instanitro.instanitro",
+            "certificate_hash": "21deecdbeba8104ae07b5e0dc9464bfb3c775c6b"
+          }
+        },
+        {
+          "client_id": "22892575655-415higp1te4s7aiv67bnhi54qigc1guc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-zQG0czBJ1fHjB6QQaXoyOzRiPpFsKJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "22892575655-415higp1te4s7aiv67bnhi54qigc1guc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

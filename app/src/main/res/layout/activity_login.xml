@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:id="@+id/appLogo"
+                android:contentDescription="@string/logo"
+                app:srcCompat="@drawable/icon"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp">
+                <TextView
+                    android:id="@+id/app_name_initial"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:gravity="center_horizontal"
+                    android:text="@string/insta"
+                    android:textColor="#e95950"
+                    android:textSize="30sp"/>
+
+                <TextView
+                    android:id="@+id/app_name_final"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:gravity="center_horizontal"
+                    android:text="@string/nitro"
+                    android:textColor="#fbad50"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+        <AutoCompleteTextView
+            android:id="@+id/email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="55dp"
+            android:background="@drawable/textbox_background_filled"
+            android:hint="@string/email"
+            android:inputType="textAutoComplete"
+            android:paddingBottom="12dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="12dp"
+            android:textColor="#fff"
+            android:textColorHint="#99FFFFFF"
+            android:textSize="15sp" /><!-- Email -->
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <EditText
+            android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/textbox_background_filled"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingBottom="12dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="12dp"
+            android:textColor="#fff"
+            android:textColorHint="#99FFFFFF"
+            android:textSize="15sp" /><!-- Password -->
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="10dp" />
+        <TextView
+            android:id="@+id/forgot_password_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="25dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/forgot_password"
+            android:textAlignment="textEnd"
+            android:textColor="#B2ffffff"
+            android:textSize="14sp"
+            android:textStyle="italic" /><!-- Forgot Password -->
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="60dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/sign_in_button"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/submit_button_background_white"
+                android:fontFamily="@font/montserrat_bold"
+                android:text="@string/sign_in"
+                android:textAllCaps="false"
+                android:textColor="#606c88"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/DontHaveAccount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/don_t_have_an_account"
+                android:fontFamily="@font/comfortaa"
+                android:textAlignment="textEnd"
+                android:textColor="#b2ffffff"
+                android:textStyle="italic"
+                android:layout_marginEnd="15dp"/>
+
+            <ImageButton
+                android:id="@+id/register_button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/register_button_background"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:src="@drawable/ic_person_add"
+                android:tint="#606c88"
+                android:contentDescription="@string/registerbutton" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InstaNitro</string>
+    <string name="logo">Logo</string>
+    <string name="insta">Insta</string>
+    <string name="nitro">Nitro</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="registerbutton">RegisterButton</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="username">Username</string>
+</resources>

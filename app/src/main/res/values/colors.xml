@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#607d8b</color>
+    <color name="colorPrimaryDark">#263238</color>
+    <color name="colorAccent">#118ff9</color>
+    <color name="black">#000000</color>
+    <color name="gradient_centre">#263238</color>
+    <color name="gradient_ends">#607d8b</color>
+    <color name="sblack">#263238</color>
+    <color name="cblack">#607d8b</color>
+    <color name="sblue">#2C5364</color>
+    <color name="blue">#004c77</color>
+    <color name="Sclicked">#7474BF</color>
+    <color name="white">#ffffff</color>
+    <color name="blue_grey_700">#455a64</color>
+</resources>

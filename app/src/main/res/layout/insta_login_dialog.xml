@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="wrap_content"
+    android:layout_gravity="center">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_background"
+    android:gravity="center"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Instagram Login"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="15sp"/>
+    <AutoCompleteTextView
+        android:id="@+id/insta_uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textbox_background_dark"
+        android:hint="Username"
+        android:inputType="textAutoComplete"
+        android:paddingBottom="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="15sp" />
+    <AutoCompleteTextView
+        android:id="@+id/insta_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/textbox_background_dark"
+        android:hint="Password"
+        android:inputType="textAutoComplete"
+        android:paddingBottom="12dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="12dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:textSize="15sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/confirm_button"
+            android:layout_marginStart="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13sp"/>
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
